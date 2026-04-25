@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Lato:wght@300;400;700&display=swap');
+
+/* ---- body ---- */
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #f0f0f0;
+    background-color: #0a0a0a;
+}
+
+/* ---- header ---- */
+header {
+    background-color: #014421;
+    border-bottom: 4px solid #c9a84c;
+}
+
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.8em;
+    font-weight: 700;
+    color: #c9a84c;
+    letter-spacing: 3px;
+}
+
+header p {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+/* ---- nav ---- */
+nav {
+    background-color: #011f10;
+    border-bottom: 2px solid #c9a84c;
+}
+
+nav a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    color: #c9a84c;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* ---- main ---- */
+main {
+    background-color: #111111;
+}
+
+/* ---- headings ---- */
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    color: #c9a84c;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8em;
+    color: #c9a84c;
+    border-bottom: 2px solid #014421;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+/* ---- párrafos ---- */
+p {
+    font-size: 1em;
+    color: #cccccc;
+    line-height: 1.8;
+}
+
+/* ---- enlaces generales ---- */
+a {
+    color: #c9a84c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* ---- listas ---- */
+li {
+    font-size: 1em;
+    color: #cccccc;
+    line-height: 1.9;
+}
+
+/* ---- imágenes ---- */
+img {
+    border: 4px solid #c9a84c;
+}
+
+/* ---- article ---- */
+article {
+    background-color: #1a1a1a;
+    border-left: 4px solid #014421;
+}
+
+article h3 {
+    color: #c9a84c;
+}
+
+article p {
+    color: #cccccc;
+}
+
+/* ---- tabla ---- */
+table {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.95em;
+    background-color: #1a1a1a;
+    width: 100%;
+}
+
+thead {
+    background-color: #014421;
+}
+
+th {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    color: #c9a84c;
+    letter-spacing: 1px;
+}
+
+td {
+    font-size: 0.9em;
+    color: #cccccc;
+    border: 1px solid #2a2a2a;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #222222;
+}
+
+tbody tr:hover {
+    background-color: #1e3a2a;
+}
+
+td.gym {
+    background-color: #014421;
+    color: #a8e6c1;
+    font-weight: 700;
+}
+
+td.estudio {
+    background-color: #1a2a4a;
+    color: #a8c4f0;
+    font-weight: 700;
+}
+
+td.descanso {
+    background-color: #2a1a0a;
+    color: #c9a84c;
+    font-weight: 700;
+}
+
+/* ---- footer ---- */
+footer {
+    background-color: #014421;
+    border-top: 4px solid #c9a84c;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #ffffff;
+}
+
+footer a {
+    color: #c9a84c;
+    font-size: 0.9em;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+/* ---- enlace volver ---- */
+a.volver {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #c9a84c;
+    border: 2px solid #c9a84c;
+}
+
+a.volver:hover {
+    color: #014421;
+    background-color: #c9a84c;
+}
