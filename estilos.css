@@ -63,7 +63,6 @@ h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 1.8em;
     color: #c9a84c;
-    border-bottom: 2px solid #014421;
 }
 
 h3 {
@@ -104,7 +103,6 @@ img {
 /* ---- article ---- */
 article {
     background-color: #1a1a1a;
-    border-left: 4px solid #014421;
 }
 
 article h3 {
@@ -152,20 +150,17 @@ tbody tr:hover {
 }
 
 td.gym {
-    background-color: #014421;
-    color: #a8e6c1;
+    color: #cccccc;
     font-weight: 700;
 }
 
 td.estudio {
-    background-color: #1a2a4a;
-    color: #a8c4f0;
+    color: #cccccc;
     font-weight: 700;
 }
 
 td.descanso {
-    background-color: #2a1a0a;
-    color: #c9a84c;
+    color: #cccccc;
     font-weight: 700;
 }
 
